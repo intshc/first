@@ -1,6 +1,7 @@
 public class Member {
     private Long id;
     private String username;
+    private Team team;
 
     public Member(Long id, String username) {
         this.id = id;
